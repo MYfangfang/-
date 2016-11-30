@@ -1,0 +1,56 @@
+/* 公共部分 */
+.transitionALL {
+  transition: all 1s;
+}
+.section {
+  overflow: hidden;
+}
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+#menu .active a {
+  color: #fff;
+  background-color: #FEA005;
+}
+/* 公共部分 */
+/*头部导航开始*/
+.header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #fff url(../images/4.jpg) repeat-x;
+  z-index: 100;
+}
+.inHeader {
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  /*background:pink;*/
+}
+.headerNav {
+  float: left;
+  height: 60px;
+}
+.headerNav li {
+  float: left;
+  height: 100%;
+  font-weight: bold;
+  font-size: 14px;
+}
+.headerNav li a {
+  padding: 0 20px;
+  color: #888888;
+  line-height: 60px;
+  display: inline-block;
+}
+.headerNav li .current,
+.headerNav li .clicked {
+  background: #FEA005;
+  color: #fff;
+}
+/*头部导航结束*/
